@@ -2,7 +2,6 @@ import Contents from '@/components/our-serices-details/Contents';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import Footer from '@/components/shared/footer/Footer';
 import NavbarOne from '@/components/shared/header/NavbarOne';
-import PageHero from '@/components/shared/PageHero';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
