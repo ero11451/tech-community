@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "question": "Do I need to be a Nivolia member to attend the event?",
+    "answer": "No — our events are open to everyone! Members receive early access and discounted tickets, but guests and newcomers are always welcome to join."
+  },
+  {
+    "id": 2,
+    "question": "Will the event be available online?",
+    "answer": "Yes. Nivolia Connect will be hosted in-person in London and streamed live for our global audience. Virtual attendees will also get access to session recordings."
+  },
+  {
+    "id": 3,
+    "question": "What should I bring to the event?",
+    "answer": "Bring your curiosity, business cards, and an open mind. A notebook or laptop is optional but great for taking notes and capturing contacts."
+  },
+  {
+    "id":4,
+    "question": "Can I apply to speak or host a roundtable?",
+    "answer": "Absolutely! We accept speaker and facilitator applications until November 24. Send a short pitch to speak@nivolia.com with your topic and bio."
+  },
+  {
+    "id": 5,
+    "question": "Are tickets refundable?",
+    "answer": "Tickets are refundable up to 7 days before the event. If you can’t make it, you can also transfer your ticket to another attendee at no cost."
+  },
+  {
+    "id": 6,
+    "question": "How can I become a sponsor or partner?",
+    "answer": "We collaborate with companies, startups, and community organizations to power our events. Email partnerships@nivolia.com for details on sponsorship packages."
+  }
+]
