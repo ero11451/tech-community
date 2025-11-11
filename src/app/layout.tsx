@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${interTight.variable} antialiased`}>
+      <body className={`${interTight?.variable} antialiased`}>
         <AppContextProvider>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
             <Suspense>

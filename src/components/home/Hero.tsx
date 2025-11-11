@@ -1,10 +1,5 @@
-import { ClockIcon, MessageIcon, TaskIcon, UserIcon } from '@/icons';
-import avatar10 from '@public/images/avatar/avatar-10.png';
-import avatar11 from '@public/images/avatar/avatar-11.png';
-import avatar9 from '@public/images/avatar/avatar-9.png';
 import heroBgPatternDark from '@public/images/home-page-11/hero-bg-pattern-dark.svg';
 import heroBgPattern from '@public/images/home-page-11/hero-bg-pattern.svg';
-import heroImg from '@public/images/home-page-11/hero-img.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -12,7 +7,7 @@ import LinkButton from '../ui/button/LinkButton';
 
 const Hero = () => {
   return (
-    <section className="relative pt-[150px] lg:pt-[220px] pb-[100px] overflow-hidden" aria-label="Hero section">
+    <section className="relative pt-[150px] lg:pt-[220px] pb-[100px] h-screen overflow-hidden bg-[url('/images/home-page-14/hero-bg.svg')] /images/home-page-14/hero-bg-dark.svg dark:bg-[url('/images/home-page-14/hero-bg-dark.svg')]" aria-label="Hero section">
       <RevealAnimation delay={0.2} duration={0.4} useSpring={true} offset={0}>
         <div className="absolute top-[10%] lg:top-[13%] 2xl:-top-5 z-[1] left-1/2 -translate-x-1/2 w-full h-full">
           <Image src={heroBgPattern} alt="Hero background pattern" className="block dark:hidden w-full" priority />
@@ -42,7 +37,7 @@ const Hero = () => {
             <RevealAnimation delay={0.3} direction="left" offset={50}>
               <li className="max-md:w-[90%] md:w-auto max-md: mx-auto">
                 <LinkButton
-                  href="/login-01"
+                  href="/#community"
                   className="btn btn-lg md:btn-xl hover:btn-secondary dark:hover:btn-white btn-primary w-full md:w-auto"
                   aria-label="Get started for free">
               Join the Network
@@ -52,7 +47,7 @@ const Hero = () => {
             <RevealAnimation delay={0.5} direction="left" offset={50}>
               <li className="max-md:w-[90%] max-md:mx-auto md:w-auto">
                 <LinkButton
-                  href="/features-01"
+                  href="/#event"
                   className="btn btn-lg md:btn-xl hover:btn-primary btn-white dark:btn-white-dark w-full md:w-auto"
                   aria-label="Explore features">
                 Explore Events
@@ -63,7 +58,7 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div className="flex items-center relative justify-center sm:gap-8 sm:after:absolute sm:after:content-[''] sm:after:z-40 sm:after:w-[641px] sm:after:h-[504px] dark:after:h-[254px] after:bg-gradient-to-b after:from-[rgba(240,242,246,0.00)] dark:after:from-[rgba(24, 29, 38, 0.00)] after:from-[45.78%] dark:after:from-[25.78%] after:to-[#F4F5F8] dark:after:to-[#181D26] after:to-[87.09%] dark:after:to-[97.09%] after:bottom-0 after:left-1/2 after:-translate-x-1/2">
+        {/* <div className="flex items-center relative justify-center sm:gap-8 sm:after:absolute sm:after:content-[''] sm:after:z-40 sm:after:w-[641px] sm:after:h-[504px] dark:after:h-[254px] after:bg-gradient-to-b after:from-[rgba(240,242,246,0.00)] dark:after:from-[rgba(24, 29, 38, 0.00)] after:from-[45.78%] dark:after:from-[25.78%] after:to-[#F4F5F8] dark:after:to-[#181D26] after:to-[87.09%] dark:after:to-[97.09%] after:bottom-0 after:left-1/2 after:-translate-x-1/2">
           <div className="absolute top-[52%] lg:top-[24%] left-[57%] max-sm:-translate-x-1/2 sm:left-[0%]">
             <RevealAnimation animationType="to" direction="down" offset={10} rotation={-9} delay={0.6}>
               <article className="relative opacity-0">
@@ -190,7 +185,7 @@ const Hero = () => {
               <Image src={heroImg} alt="Hero image showing email marketing dashboard" priority />
             </figure>
           </RevealAnimation>
-        </div>
+        </div> */}
       </div>
     </section>
   );

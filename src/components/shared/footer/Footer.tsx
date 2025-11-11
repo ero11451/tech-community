@@ -1,4 +1,4 @@
-import RevealAnimation from '@/components/animation/RevealAnimation';
+
 import { cn } from '@/utils/cn';
 import behance from '@public/images/icons/behance.svg';
 import dribbble from '@public/images/icons/dribbble.svg';
@@ -31,14 +31,14 @@ const Footer: FC<FooterOneProps> = ({ className, defaultTheme }) => {
       <div className="main-container px-5">
         <div className="grid grid-cols-12 justify-between gap-x-0 gap-y-16 pt-16 pb-12 xl:pt-[90px]">
           <div className="col-span-12 xl:col-span-4">
-            <RevealAnimation delay={0.3}>
+
               <div className="max-w-[306px]">
-                <figure>
+                <figure className="">
                   <Image src={darkLogo} alt="NextSass Logo" height={100} />
                 </figure>
-                <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
+                {/* <p className="text-accent/60 text-tagline-1 mt-4 mb-7 font-normal">
                   Turpis tortor nunc sed amet et faucibus vitae morbi congue sed id mauris.
-                </p>
+                </p> */}
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://www.facebook.com" className="footer-social-link">
                     <span className="sr-only">Facebook</span>
@@ -71,11 +71,11 @@ const Footer: FC<FooterOneProps> = ({ className, defaultTheme }) => {
                   </Link>
                 </div>
               </div>
-            </RevealAnimation>
+          
           </div>
           <div className="col-span-12 grid grid-cols-12 gap-x-0 gap-y-8 xl:col-span-8">
             <div className="col-span-12 md:col-span-4">
-              <RevealAnimation delay={0.4}>
+     
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Company</p>
                   <ul className="space-y-3 sm:space-y-5">
@@ -94,17 +94,17 @@ const Footer: FC<FooterOneProps> = ({ className, defaultTheme }) => {
                         Case Studies
                       </Link>
                     </li> */}
-                    <li>
+                    {/* <li>
                       <Link href="/contact-us" className="footer-link">
                         Contact Us
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
-              </RevealAnimation>
+       
             </div>
             <div className="col-span-12 md:col-span-4">
-              <RevealAnimation delay={0.5}>
+             
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Support</p>
                   <ul className="space-y-3 sm:space-y-5">
@@ -130,10 +130,10 @@ const Footer: FC<FooterOneProps> = ({ className, defaultTheme }) => {
                     </li>*/}
                   </ul>
                 </div>
-              </RevealAnimation>
+             
             </div>
             <div className="col-span-12 md:col-span-4">
-              <RevealAnimation delay={0.6}>
+              
                 <div className="space-y-8">
                   <p className="sm:text-heading-6 text-tagline-1 text-primary-50 font-normal">Legal Policies</p>
                   <ul className="space-y-3 sm:space-y-5">
@@ -164,17 +164,17 @@ const Footer: FC<FooterOneProps> = ({ className, defaultTheme }) => {
                     </li> */}
                   </ul>
                 </div>
-              </RevealAnimation>
+       
             </div>
           </div>
         </div>
         <div className="relative pt-[26px] pb-[100px] text-center">
           <FooterDivider />
-          <RevealAnimation delay={0.7} offset={10} start="top 105%">
+          <>
             <p className="text-tagline-1 text-primary-50 font-normal">
               Copyright &copy;Nivolia – smart application for modern business
             </p>
-          </RevealAnimation>
+          </>
         </div>
       </div>
       <ThemeToggle defaultTheme={defaultTheme} />

@@ -40,7 +40,7 @@ const integrationData = [
     name: 'LinkedIn',
     category: 'Communication',
     icon: linkedin,
-    href: '/integration-01',
+    href: 'https://www.linkedin.com/groups/16023006/',
   },
   // {
   //   id: 2,
@@ -85,7 +85,8 @@ const Integration = () => {
             {integrationData.map((integration, index) => (
               <RevealAnimation key={integration.id} delay={0.1 + index * 0.1}>
                 <div className="group">
-                  <Link
+                  <a 
+                    target="_blank"
                     href={integration.href}
                     className="group-hover:shadow-1 flex justify-between rounded-[20px] bg-white/14 p-4 transition-all duration-500 ease-in-out group-hover:scale-[102%] max-[426px]:rounded-xl max-[426px]:p-3.5 md:p-4 lg:p-8">
                     <div className="flex items-center gap-4">
@@ -110,7 +111,7 @@ const Integration = () => {
                       <ArrowIcon className="absolute -translate-x-11 opacity-0 transition-all duration-[600ms] ease-in-out group-hover:translate-x-0 group-hover:opacity-100 size-6 stroke-black" />
                       <ArrowIcon className="absolute translate-x-0 opacity-100 transition-all duration-[600ms] ease-in-out group-hover:translate-x-10 group-hover:opacity-0 size-6 stroke-black" />
                     </div>
-                  </Link>
+                  </a>
                 </div>
               </RevealAnimation>
             ))}

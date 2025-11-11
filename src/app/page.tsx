@@ -7,6 +7,7 @@ import Integration from '@/components/home/Integration';
 import CTAV1 from '@/components/shared/cta/CTAV1';
 import Footer from '@/components/shared/footer/Footer';
 import NavbarOne from '@/components/shared/header/NavbarOne';
+import SmoothScrollProvider from '@/components/shared/SmoothScroll';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 import { Fragment } from 'react';
@@ -19,6 +20,8 @@ export const metadata: Metadata = {
 const Homepage01 = () => {
   return (
     <Fragment>
+      <SmoothScrollProvider>
+        
       <NavbarOne
         className="border-stroke-2 dark:border-stroke-6 bg-accent dark:bg-background-9 border"
         btnClassName="btn-primary hover:btn-white-dark dark:hover:btn-white"
@@ -46,6 +49,8 @@ const Homepage01 = () => {
         />
       </main>
       <Footer />
+
+      </SmoothScrollProvider>
     </Fragment>
   );
 };

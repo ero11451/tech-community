@@ -3,7 +3,8 @@ import BlogCardV4 from '../shared/card/BlogCardV4';
 import heroImg from '@public/images/home-page-11/hero-img.png';
 import LinkButton from '../ui/button/LinkButton';
 import { IBlogPost } from '@/interface';
-const blogs: IBlogPost[] =  [
+import BlogCardV5 from '../shared/card/BlogCardV5';
+const blogs: IBlogPost[] = [
   {
     tag: "Meetup",
     author: "Nivolia Network Team",
@@ -26,7 +27,7 @@ const Blog = () => {
           <div className="text-center space-y-5 md:mb-[70px] mb-10">
             <RevealAnimation delay={0.1}>
               <span className="badge badge-green dark:!text-accent/60 dark:!bg-accent/10">
-              Upcoming event
+                Upcoming event
               </span>
             </RevealAnimation>
             <div className="space-y-3">
@@ -47,15 +48,15 @@ const Blog = () => {
               </div>
             </RevealAnimation>
 
-          <div className="col-span-12 xl:col-span-6 lg:col-span-7 space-y-8">
-              {/* <RevealAnimation delay={0.6}>
+            <div className="col-span-12 xl:col-span-6 lg:col-span-7 space-y-8">
+              <RevealAnimation delay={0.6}>
                 <BlogCardV5 blog={blogs[0]} className="bg-white dark:bg-background-8" />
-              </RevealAnimation> */}
-
-            {/*     <RevealAnimation delay={0.7}>
-                <BlogCardV5 blog={blogs[2]} className="bg-white dark:bg-background-8" />
               </RevealAnimation>
-          */}  </div> 
+
+              <RevealAnimation delay={0.4}>
+                <BlogCardV5 blog={blogs[0]} className="bg-white dark:bg-background-8" />
+              </RevealAnimation>
+            </div>
           </div>
           <RevealAnimation delay={0.6}>
             <div className="flex justify-center mt-14 section-button-01">
