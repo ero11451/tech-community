@@ -1,4 +1,4 @@
-# NextSaaS - Modern SaaS Template Collection 
+# techsocialnetwork - Modern SaaS Template Collection 
 
 A comprehensive, modern Next.js 15 SaaS template collection with 20+ homepage variations and complete inner pages. Built with React 19, TypeScript, Tailwind CSS 4, and cutting-edge web technologies for SaaS businesses, startups, and web applications.
 
@@ -83,7 +83,7 @@ Before getting started, ensure you have:
 3. **Navigate** to the project folder:
 
 ```bash
-cd nextsaas-next
+cd techsocialnetwork-next
 ```
 
 ### 2. Install Dependencies
@@ -111,7 +111,7 @@ The application will be available at `http://localhost:3000`
 ## 📁 Project Structure
 
 ```
-nextsaas-next/
+techsocialnetwork-next/
 ├── public/                     # Static assets
 │   ├── images/                # Images organized by components
 │   ├── icons/                 # SVG icons and graphics
@@ -228,7 +228,7 @@ import NavbarOne from '@/components/shared/header/NavbarOne';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Portfolio - NextSaaS',
+  title: 'Portfolio - techsocialnetwork',
   description: 'Showcase of our amazing projects and work',
 };
 
@@ -436,7 +436,7 @@ Need help with deployment? Contact us at [hello@pixel71.com](mailto:hello@pixel7
 ## 📖 Documentation
 
 - [Development Guide](./DEVELOPMENT.md) - Detailed development workflow
-- [Component Documentation](https://nextsaas-documentation.vercel.app/nextjs/get-started) - Usage guide
+- [Component Documentation](https://techsocialnetwork-documentation.vercel.app/nextjs/get-started) - Usage guide
 
 ## 📧 Support & Contact
 

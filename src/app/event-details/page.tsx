@@ -16,7 +16,7 @@ export async function generateStaticParams() {
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Our Services Details - NextSaaS',
+  title: 'Our Services Details - techsocialnetwork',
 };
 
 const EventDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {

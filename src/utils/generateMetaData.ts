@@ -12,7 +12,7 @@ const defaultMetadata: Metadata = {
   description: DEFAULT_DESCRIPTION,
   openGraph: {
     type: 'website',
-    siteName: 'NextSaaS',
+    siteName: 'techsocialnetwork',
     url: DEFAULT_URL,
     title: DEFAULT_TITLE,
     description: DEFAULT_DESCRIPTION,

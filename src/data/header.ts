@@ -212,7 +212,7 @@ export const pageMegaMenuColumns: MegaMenuColumn[] = [
 
 export const headerConfig = {
   logo: {
-    alt: 'NextSaaS',
+    alt: 'techsocialnetwork',
     mainLogoPath: '@public/images/shared/main-logo.png',
     logoPath: '@public/images/shared/logo.png',
     logoDarkPath: '@public/images/shared/logo-dark.svg',

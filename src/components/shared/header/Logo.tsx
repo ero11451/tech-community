@@ -10,13 +10,13 @@ const Logo = () => {
       <Link href="/">
         <span className="sr-only">Home</span>
         <figure className="hidden lg:block lg:max-w-[198px]">
-          <Image src={mainLogo} height={19} width={100} alt="NextSaaS" className="dark:invert" />
+          <Image src={mainLogo} height={19} width={100} alt="techsocialnetwork" className="dark:invert" />
         </figure>
 
         {/* mobile logo */}
         <figure className="block max-w-[44px] lg:hidden">
-          <Image src={logo} alt="NextSaaS" className="block w-full dark:hidden" />
-          <Image src={logoDark} alt="NextSaaS" className="hidden w-full dark:block" />
+          <Image src={logo} alt="techsocialnetwork" className="block w-full dark:hidden" />
+          <Image src={logoDark} alt="techsocialnetwork" className="hidden w-full dark:block" />
         </figure>
       </Link>
     </div>

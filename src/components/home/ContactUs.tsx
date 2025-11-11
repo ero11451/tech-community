@@ -6,9 +6,9 @@ const contactInfo = [
   {
     id: 1,
     type: 'email',
-    text: 'hello@nextsaas.com',
-    href: 'mailto:hello@nextsaas.com',
-    ariaLabel: 'Email us at hello@nextsaas.com',
+    text: 'hello@techsocialnetwork.com',
+    href: 'mailto:hello@techsocialnetwork.com',
+    ariaLabel: 'Email us at hello@techsocialnetwork.com',
     icon: {
       light: '/images/icons/mail.svg',
       dark: '/images/icons/mail-white.svg',

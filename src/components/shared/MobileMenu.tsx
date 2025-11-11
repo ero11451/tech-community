@@ -38,8 +38,8 @@ const MobileMenu = () => {
           <Link href="/">
             <span className="sr-only">Home</span>
             <figure className="max-w-[44px]">
-              <Image src={logo} alt="NextSaaS" className="block w-full dark:hidden" />
-              <Image src={logoDark} alt="NextSaaS" className="hidden w-full dark:block" />
+              <Image src={logo} alt="techsocialnetwork" className="block w-full dark:hidden" />
+              <Image src={logoDark} alt="techsocialnetwork" className="hidden w-full dark:block" />
             </figure>
           </Link>
           {/* close menu btn */}
